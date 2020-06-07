@@ -1,0 +1,54 @@
+intents:
+  - greet
+  - bye
+  - thank
+  - bot_challenge
+  - canthelp
+  - react_negative
+  - react_positive
+  - hour_open
+  - location
+  - policy
+
+
+responses:
+  utter_thank:
+    - text: I'm happy to help.
+    - text: No worries!
+    - text: You're welcome!
+
+  utter_greet:
+    - text: 🤖 Hi, my name is Duck
+    - text: 🤖 Hello, i'am Duck. How can i help you?
+  utter_bye:
+    - text: Bye!
+  utter_iamabot:
+    - text: I am a bot. 🤖
+  utter_canthelp:
+    - text: nothing :))
+  utter_react_positive:
+    - text: :)
+    - text: 😄
+    - text: 😊
+    - text: 👏
+    - text: 😍
+  utter_react_negative:
+    - text: :(
+    - text: 😕
+    - text: 😞
+    - text: 😥
+    - text: 😢
+  utter_hour_open:
+    - text: our stores is open from 7 AM to 10 PM everyday
+  utter_location:
+    - text: Our store located at 1st Dai Co Viet street, Ha noi, Viet nam.
+  utter_wait:
+    - text: ok, i'll check for you.
+    - text: ok, wait a bit
+    - text: ok wait a while
+  utter_moredetail:
+    - text: Alternatively, you can call [123-456-789] for more details
+
+actions:
+  - respond_policy
+
